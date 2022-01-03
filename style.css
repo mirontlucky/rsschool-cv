@@ -1,1 +1,88 @@
- ha ha
+.avatar{
+    width: 500px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.nav_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 42px;
+    background-color: #8c9099;
+    margin: 0px;
+}
+
+.nav_button{ 
+    margin: 20px;
+    color: #22252b;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0px;
+    background-color: whitesmoke;
+    font-size: 24px;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+.avatar_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #22252b;
+    color: #c0c3ca;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f3238;
+    color: whitesmoke;
+}
+.text_in{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+.container.projects{
+    background-color: #22252b
+}
+.container.language{
+    background-color: #22252b
+}
+.container.contacts{
+    margin: 0px;
+}
+.rss_img{
+    width: 200px;
+}
+.container.footer{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    background-color: #22252b
+}
+.git{
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+.marg{
+    margin: 0px;
+}
