@@ -1,3 +1,3 @@
 # rsschool-cv
 i want to die
-# [cv](https://mirotnlucky.github.io/rsschool-cv/)
+# [cv](https://mirontlucky.github.io/rsschool-cv/)
