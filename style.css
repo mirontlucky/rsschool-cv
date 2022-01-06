@@ -376,3 +376,49 @@ header{
     margin-top: 10px;
     text-align: center;
 }
+.cont_main{
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.cont_mid{
+    float: left;
+    align-items: center;
+    vertical-align: top;
+    height: 52px;
+    margin: 0px 50px 0px 50px;
+
+}
+.cont_img{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block;
+}
+#cont_img_mail{ 
+    background-image: url(./mail_icon.png);
+}
+#cont_img_phone{
+    background-image: url(./ph_icon.png);
+
+}
+#cont_img_ds{
+    background-image: url(./ds_icon.png);
+}
+#cont_img_tg{
+    background-image: url(./tg_icon.png);
+}
+.cont_txt{
+    color: #fff;
+    display: inline-block;
+    width: 250px;
+    font-weight: 100;
+    vertical-align: top;
+    height: 25px;
+    padding: 10px 0px 0px 15px
+}
+.cont_s_txt{
+    display: block;
+    
+}
