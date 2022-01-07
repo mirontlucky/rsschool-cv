@@ -123,7 +123,13 @@ header{
     background-color: #22252b
     
 }
-
+.container.expirience{
+    border: 0px;
+    border-top: 1px solid #fff;
+}
+.code_txt{
+    color: #fff;
+}
 .container.language{
     background-color: #22252b
 }
@@ -317,9 +323,6 @@ header{
     color: #141414;
     text-decoration: none;
     transition: all 0.4s ease;
-
-
-
 }
 .prj_description{
     font-size: 20px;
@@ -329,10 +332,7 @@ header{
     margin-left: 18px;
     margin-top: 10px;
 }
-.lang_main{
-    /* aaa */
 
-}
 .lang_mid{
     float: left;
     align-items: center;
