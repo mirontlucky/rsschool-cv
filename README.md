@@ -1,2 +1,4 @@
-Trainee repository with CV
-[Link on CV here](https://mirontlucky.github.io/rsschool-cv/)
+https://mirontlucky.github.io/rsschool-cv/cv
+
+
+https://mirontlucky.github.io/rsschool-cv/
