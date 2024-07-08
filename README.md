@@ -1,4 +1,4 @@
-https://mirontlucky.github.io/rsschool-cv/cv
+[Markdown CV here](https://mirontlucky.github.io/rsschool-cv/cv)
 
-
-https://mirontlucky.github.io/rsschool-cv/
+[HTML&CSS CV here](https://mirontlucky.github.io/rsschool-cv/)
+Thank you & Good luck!
