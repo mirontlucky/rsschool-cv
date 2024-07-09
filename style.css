@@ -36,12 +36,14 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
+
 @media(min-width: 600px) {
     .about-content {
         display: flex;
         flex-direction: row;
         text-align: left;
         justify-content: center; /*поможет?*/
+        align-items: center;
     }
 
     .profile-photo {
@@ -68,33 +70,42 @@ h1, h2 {
     width: 100%;
     margin-top: 100%;
     display: inline-block;
+    align-items: center;    
 }
 
 .logo-rs {
     height: 100px;
     width: 150px;
     border-radius: 10%;
+    margin: 0 10px;
 }
 
 .logo-steam {
     height: 100px;
     width: 80px;
     border-radius: 10%;
+    margin: 0 10px;
 }
 
 .logo-telegram {
     height: 100px;
     width: 80px;
     border-radius: 10%;
+    margin: 0 10px;
 }
 
 .logo-github {
     height: 100px;
     width: 80px;
+    margin: 0 10px;
 }
 
 .logo-instagram {
     height: 100px;
     width: 100px;
+    margin: 0 10px;
 }
 
+.time {
+    margin: 0 20px;
+}
