@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -25,27 +20,13 @@ body {
     text-decoration: none;
 }
 
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.container {
-    padding: 20px;
-}
-
 h1, h2 {
     color: #333;
 }
-.contact-info, .skills, .about, .code, .projects {
-    margin-bottom: 20px;
-}
-
-.about-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.contact-info, .skills, .about, .code, .projects, .lang{
+    margin: 0 auto 20px;
+    max-width: fit-content;
+    
 }
 
 .profile-photo {
@@ -57,6 +38,7 @@ h1, h2 {
 
 @media(min-width: 600px) {
     .about-content {
+        display: flex;
         flex-direction: row;
         text-align: left;
         justify-content: center; /*поможет?*/
@@ -76,39 +58,43 @@ h1, h2 {
     text-align: left;
 }
 
-ul {
-    padding-left: 20px;
-    display: inline-block;
-    text-align: left;
-}
-
 .footer {
     background-color: #333;
     color: #f2f2f2;
+    border: 1px solid #333;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     width: 100%;
-    bottom: 0;
     margin-top: 100%;
+    display: inline-block;
 }
 
-.footer a {
-    color: #f2f2f2;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    color: #ddd;
-}
-
-footer p{
-    margin: 0.5rem 0;
-}
-
-.rs-logo {
-    max-width: 10%;
-    height: auto;
+.logo-rs {
+    height: 100px;
+    width: 150px;
     border-radius: 10%;
 }
+
+.logo-steam {
+    height: 100px;
+    width: 80px;
+    border-radius: 10%;
+}
+
+.logo-telegram {
+    height: 100px;
+    width: 80px;
+    border-radius: 10%;
+}
+
+.logo-github {
+    height: 100px;
+    width: 80px;
+}
+
+.logo-instagram {
+    height: 100px;
+    width: 100px;
+}
+
