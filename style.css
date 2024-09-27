@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Центрировние текста для боди*/
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center; /* Центрирование текста в баре */
+}
+
+.navbar a {
+    float: none; /*Для центрирования линков?*/
+    display: inline-block; /*для норм отображения*/
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #333;
+}
+.contact-info, .skills, .about, .code, .projects, .lang{
+    margin: 0 auto 20px;
+    max-width: fit-content;
+    
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+@media(min-width: 600px) {
+    .about-content {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-content: center; /*поможет?*/
+    }
+
+    .profile-photo {
+        margin-right: 20px;
+        text-align: left;
+    }
+}
+
+.code pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: #333;
+    color: #f2f2f2;
+    border: 1px solid #333;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 100%;
+    display: inline-block;
+}
+
+.logo-rs {
+    height: 100px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.logo-steam {
+    height: 100px;
+    width: 80px;
+    border-radius: 10%;
+}
+
+.logo-telegram {
+    height: 100px;
+    width: 80px;
+    border-radius: 10%;
+}
+
+.logo-github {
+    height: 100px;
+    width: 80px;
+}
+
+.logo-instagram {
+    height: 100px;
+    width: 100px;
+}
+
